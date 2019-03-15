@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		63C337BD7833D21B1F18332A /* Pods_MyGolf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA0B6E9B4B13575F088084CB /* Pods_MyGolf.framework */; };
+		7C226D3E223AADA30007B1DF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C226D3D223AADA30007B1DF /* AppDelegate.m */; };
+		7C226D41223AADA30007B1DF /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C226D40223AADA30007B1DF /* MainViewController.m */; };
+		7C226D44223AADA30007B1DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C226D42223AADA30007B1DF /* Main.storyboard */; };
+		7C226D46223AADA30007B1DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C226D45223AADA30007B1DF /* Assets.xcassets */; };
+		7C226D49223AADA30007B1DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C226D47223AADA30007B1DF /* LaunchScreen.storyboard */; };
+		7C226D4C223AADA30007B1DF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C226D4B223AADA30007B1DF /* main.m */; };
+		7C226D61223AB2930007B1DF /* libVIFoundation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C226D5A223AB2860007B1DF /* libVIFoundation.a */; };
+		7C226D68223AB2EF0007B1DF /* MyGolf.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7C226D66223AB2EF0007B1DF /* MyGolf.xcdatamodeld */; };
+		7C226D6B223AB31A0007B1DF /* ApplicationContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C226D6A223AB31A0007B1DF /* ApplicationContext.m */; };
+		7CD0B78F223B329E005E585D /* ProfileCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CD0B78D223B329E005E585D /* ProfileCell.m */; };
+		7CD0B790223B329E005E585D /* ProfileCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7CD0B78E223B329E005E585D /* ProfileCell.xib */; };
+		7CD0B79D223B6C8E005E585D /* PlayerInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CD0B79B223B6C8D005E585D /* PlayerInfoViewController.m */; };
+		7CD0B79E223B6C8E005E585D /* PlayerInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7CD0B79C223B6C8D005E585D /* PlayerInfoViewController.xib */; };
+		7CD0B7A2223B94E4005E585D /* PlayerInfoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CD0B7A0223B94E4005E585D /* PlayerInfoCell.m */; };
+		7CD0B7A3223B94E4005E585D /* PlayerInfoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7CD0B7A1223B94E4005E585D /* PlayerInfoCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7C226D59223AB2860007B1DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7C226D53223AB2860007B1DF /* VIFoundation.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7C36C2F51F10941300287D48;
+			remoteInfo = VIFoundation;
+		};
+		7C226D5B223AB2860007B1DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7C226D53223AB2860007B1DF /* VIFoundation.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7C36C31F1F10AFEC00287D48;
+			remoteInfo = VIFoundationTests;
+		};
+		7C226D5D223AB2860007B1DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7C226D53223AB2860007B1DF /* VIFoundation.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7CD2291D1FA8539E001DB960;
+			remoteInfo = VIFoundationOSX;
+		};
+		7C226D5F223AB28F0007B1DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7C226D53223AB2860007B1DF /* VIFoundation.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 7C36C2F41F10941300287D48;
+			remoteInfo = VIFoundation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03696FE280F86517E2CC5014 /* Pods-MyGolf.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyGolf.release.xcconfig"; path = "Target Support Files/Pods-MyGolf/Pods-MyGolf.release.xcconfig"; sourceTree = "<group>"; };
+		0C61280DACE587348C9478C0 /* Pods-MyGolf.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyGolf.debug.xcconfig"; path = "Target Support Files/Pods-MyGolf/Pods-MyGolf.debug.xcconfig"; sourceTree = "<group>"; };
+		7C226D39223AADA30007B1DF /* MyGolf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyGolf.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C226D3C223AADA30007B1DF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7C226D3D223AADA30007B1DF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7C226D40223AADA30007B1DF /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		7C226D43223AADA30007B1DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7C226D45223AADA30007B1DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7C226D48223AADA30007B1DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7C226D4A223AADA30007B1DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C226D4B223AADA30007B1DF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7C226D52223AB18D0007B1DF /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		7C226D53223AB2860007B1DF /* VIFoundation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = VIFoundation.xcodeproj; path = "../../../Common-for-iOS/VIFoundation/VIFoundation.xcodeproj"; sourceTree = "<group>"; };
+		7C226D67223AB2EF0007B1DF /* MyGolf.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyGolf.xcdatamodel; sourceTree = "<group>"; };
+		7C226D69223AB31A0007B1DF /* ApplicationContext.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ApplicationContext.h; sourceTree = "<group>"; };
+		7C226D6A223AB31A0007B1DF /* ApplicationContext.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ApplicationContext.m; sourceTree = "<group>"; };
+		7CD0B78C223B329E005E585D /* ProfileCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProfileCell.h; sourceTree = "<group>"; };
+		7CD0B78D223B329E005E585D /* ProfileCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProfileCell.m; sourceTree = "<group>"; };
+		7CD0B78E223B329E005E585D /* ProfileCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileCell.xib; sourceTree = "<group>"; };
+		7CD0B79A223B6C8D005E585D /* PlayerInfoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlayerInfoViewController.h; sourceTree = "<group>"; };
+		7CD0B79B223B6C8D005E585D /* PlayerInfoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayerInfoViewController.m; sourceTree = "<group>"; };
+		7CD0B79C223B6C8D005E585D /* PlayerInfoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlayerInfoViewController.xib; sourceTree = "<group>"; };
+		7CD0B79F223B94E4005E585D /* PlayerInfoCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlayerInfoCell.h; sourceTree = "<group>"; };
+		7CD0B7A0223B94E4005E585D /* PlayerInfoCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayerInfoCell.m; sourceTree = "<group>"; };
+		7CD0B7A1223B94E4005E585D /* PlayerInfoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlayerInfoCell.xib; sourceTree = "<group>"; };
+		CA0B6E9B4B13575F088084CB /* Pods_MyGolf.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyGolf.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7C226D36223AADA30007B1DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C226D61223AB2930007B1DF /* libVIFoundation.a in Frameworks */,
+				63C337BD7833D21B1F18332A /* Pods_MyGolf.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6A4D602F24E96ED554979963 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0C61280DACE587348C9478C0 /* Pods-MyGolf.debug.xcconfig */,
+				03696FE280F86517E2CC5014 /* Pods-MyGolf.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7C226D30223AADA30007B1DF = {
+			isa = PBXGroup;
+			children = (
+				7C226D3B223AADA30007B1DF /* MyGolf */,
+				7C226D3A223AADA30007B1DF /* Products */,
+				6A4D602F24E96ED554979963 /* Pods */,
+				E5B09778A3F5099AC1AAC618 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7C226D3A223AADA30007B1DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7C226D39223AADA30007B1DF /* MyGolf.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7C226D3B223AADA30007B1DF /* MyGolf */ = {
+			isa = PBXGroup;
+			children = (
+				7C226D65223AB2D50007B1DF /* UI */,
+				7C226D64223AB2C90007B1DF /* Core */,
+				7C226D53223AB2860007B1DF /* VIFoundation.xcodeproj */,
+				7C226D3C223AADA30007B1DF /* AppDelegate.h */,
+				7C226D3D223AADA30007B1DF /* AppDelegate.m */,
+				7C226D45223AADA30007B1DF /* Assets.xcassets */,
+				7C226D47223AADA30007B1DF /* LaunchScreen.storyboard */,
+				7C226D4A223AADA30007B1DF /* Info.plist */,
+				7C226D4B223AADA30007B1DF /* main.m */,
+			);
+			path = MyGolf;
+			sourceTree = "<group>";
+		};
+		7C226D54223AB2860007B1DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7C226D5A223AB2860007B1DF /* libVIFoundation.a */,
+				7C226D5C223AB2860007B1DF /* VIFoundationTests.xctest */,
+				7C226D5E223AB2860007B1DF /* libVIFoundationOSX.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7C226D62223AB2A90007B1DF /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				7C226D52223AB18D0007B1DF /* MainViewController.h */,
+				7C226D40223AADA30007B1DF /* MainViewController.m */,
+				7C226D42223AADA30007B1DF /* Main.storyboard */,
+				7CD0B78C223B329E005E585D /* ProfileCell.h */,
+				7CD0B78D223B329E005E585D /* ProfileCell.m */,
+				7CD0B78E223B329E005E585D /* ProfileCell.xib */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		7C226D63223AB2BA0007B1DF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7C226D66223AB2EF0007B1DF /* MyGolf.xcdatamodeld */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7C226D64223AB2C90007B1DF /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				7C226D63223AB2BA0007B1DF /* Model */,
+				7C226D69223AB31A0007B1DF /* ApplicationContext.h */,
+				7C226D6A223AB31A0007B1DF /* ApplicationContext.m */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		7C226D65223AB2D50007B1DF /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				7CD0B797223B6C70005E585D /* Player */,
+				7C226D62223AB2A90007B1DF /* Main */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		7CD0B797223B6C70005E585D /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				7CD0B79A223B6C8D005E585D /* PlayerInfoViewController.h */,
+				7CD0B79B223B6C8D005E585D /* PlayerInfoViewController.m */,
+				7CD0B79C223B6C8D005E585D /* PlayerInfoViewController.xib */,
+				7CD0B79F223B94E4005E585D /* PlayerInfoCell.h */,
+				7CD0B7A0223B94E4005E585D /* PlayerInfoCell.m */,
+				7CD0B7A1223B94E4005E585D /* PlayerInfoCell.xib */,
+			);
+			path = Player;
+			sourceTree = "<group>";
+		};
+		E5B09778A3F5099AC1AAC618 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA0B6E9B4B13575F088084CB /* Pods_MyGolf.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7C226D38223AADA30007B1DF /* MyGolf */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7C226D4F223AADA30007B1DF /* Build configuration list for PBXNativeTarget "MyGolf" */;
+			buildPhases = (
+				2396BC0B7D6B6DDEA48B75A1 /* [CP] Check Pods Manifest.lock */,
+				7C226D35223AADA30007B1DF /* Sources */,
+				7C226D36223AADA30007B1DF /* Frameworks */,
+				7C226D37223AADA30007B1DF /* Resources */,
+				115B04854DE074A84726B85F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7C226D60223AB28F0007B1DF /* PBXTargetDependency */,
+			);
+			name = MyGolf;
+			productName = MyGolf;
+			productReference = 7C226D39223AADA30007B1DF /* MyGolf.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7C226D31223AADA30007B1DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Chengq;
+				TargetAttributes = {
+					7C226D38223AADA30007B1DF = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 7C226D34223AADA30007B1DF /* Build configuration list for PBXProject "MyGolf" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7C226D30223AADA30007B1DF;
+			productRefGroup = 7C226D3A223AADA30007B1DF /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 7C226D54223AB2860007B1DF /* Products */;
+					ProjectRef = 7C226D53223AB2860007B1DF /* VIFoundation.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				7C226D38223AADA30007B1DF /* MyGolf */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		7C226D5A223AB2860007B1DF /* libVIFoundation.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libVIFoundation.a;
+			remoteRef = 7C226D59223AB2860007B1DF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		7C226D5C223AB2860007B1DF /* VIFoundationTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = VIFoundationTests.xctest;
+			remoteRef = 7C226D5B223AB2860007B1DF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		7C226D5E223AB2860007B1DF /* libVIFoundationOSX.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libVIFoundationOSX.a;
+			remoteRef = 7C226D5D223AB2860007B1DF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7C226D37223AADA30007B1DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C226D49223AADA30007B1DF /* LaunchScreen.storyboard in Resources */,
+				7CD0B79E223B6C8E005E585D /* PlayerInfoViewController.xib in Resources */,
+				7CD0B790223B329E005E585D /* ProfileCell.xib in Resources */,
+				7C226D46223AADA30007B1DF /* Assets.xcassets in Resources */,
+				7CD0B7A3223B94E4005E585D /* PlayerInfoCell.xib in Resources */,
+				7C226D44223AADA30007B1DF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		115B04854DE074A84726B85F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyGolf/Pods-MyGolf-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/ODRefreshControl/ODRefreshControl.framework",
+				"${BUILT_PRODUCTS_DIR}/TZImagePickerController/TZImagePickerController.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ODRefreshControl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TZImagePickerController.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MyGolf/Pods-MyGolf-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2396BC0B7D6B6DDEA48B75A1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyGolf-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7C226D35223AADA30007B1DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CD0B79D223B6C8E005E585D /* PlayerInfoViewController.m in Sources */,
+				7C226D41223AADA30007B1DF /* MainViewController.m in Sources */,
+				7CD0B78F223B329E005E585D /* ProfileCell.m in Sources */,
+				7C226D68223AB2EF0007B1DF /* MyGolf.xcdatamodeld in Sources */,
+				7CD0B7A2223B94E4005E585D /* PlayerInfoCell.m in Sources */,
+				7C226D4C223AADA30007B1DF /* main.m in Sources */,
+				7C226D6B223AB31A0007B1DF /* ApplicationContext.m in Sources */,
+				7C226D3E223AADA30007B1DF /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7C226D60223AB28F0007B1DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = VIFoundation;
+			targetProxy = 7C226D5F223AB28F0007B1DF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7C226D42223AADA30007B1DF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7C226D43223AADA30007B1DF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7C226D47223AADA30007B1DF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7C226D48223AADA30007B1DF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7C226D4D223AADA30007B1DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7C226D4E223AADA30007B1DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7C226D50223AADA30007B1DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C61280DACE587348C9478C0 /* Pods-MyGolf.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MyGolf/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.chengq.MyGolf;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		7C226D51223AADA30007B1DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03696FE280F86517E2CC5014 /* Pods-MyGolf.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MyGolf/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.chengq.MyGolf;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7C226D34223AADA30007B1DF /* Build configuration list for PBXProject "MyGolf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C226D4D223AADA30007B1DF /* Debug */,
+				7C226D4E223AADA30007B1DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7C226D4F223AADA30007B1DF /* Build configuration list for PBXNativeTarget "MyGolf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C226D50223AADA30007B1DF /* Debug */,
+				7C226D51223AADA30007B1DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7C226D66223AB2EF0007B1DF /* MyGolf.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7C226D67223AB2EF0007B1DF /* MyGolf.xcdatamodel */,
+			);
+			currentVersion = 7C226D67223AB2EF0007B1DF /* MyGolf.xcdatamodel */;
+			path = MyGolf.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7C226D31223AADA30007B1DF /* Project object */;
+}

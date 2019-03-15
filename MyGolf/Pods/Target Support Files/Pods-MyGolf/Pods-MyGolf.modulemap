@@ -1,0 +1,6 @@
+framework module Pods_MyGolf {
+  umbrella header "Pods-MyGolf-umbrella.h"
+
+  export *
+  module * { export * }
+}
